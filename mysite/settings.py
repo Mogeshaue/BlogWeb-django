@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv('SECRET')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://sparks1422.pythonanywhere.com','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['https://sparks1422.pythonanywhere.com','127.0.0.1','localhost','sparks1422.pythonanywhere.com']
 
 
 # Application definition
