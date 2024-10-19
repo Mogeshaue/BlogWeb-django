@@ -1,4 +1,5 @@
 from django.shortcuts import render
+<<<<<<< HEAD
 from django.utils import timezone
 from .models import Post
 from django.shortcuts import render, get_object_or_404
@@ -40,3 +41,7 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+=======
+
+# Create your views here.
+>>>>>>> 409c1413325a5415274af24f5f8048ab114c3b24
