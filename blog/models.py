@@ -15,4 +15,7 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
+        print(self.text,"text from db")
+        print(self.author,"text from db")
+        print(self.created_date,"text from db")
         return self.title
